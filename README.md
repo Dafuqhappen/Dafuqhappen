@@ -1,6 +1,6 @@
 ## Hi, I'm Max
 
-AI engineer. I build LLM products that talk to real users: chatbots, agents, MCP servers, and the
+AI engineer. I build LLM products that talk to real users: chatbots, agents, MCP servers and the
 evals that keep them honest. Most of my work is in Python, with some TypeScript.
 
 ### What I'm building now
@@ -11,7 +11,7 @@ evals that keep them honest. Most of my work is in Python, with some TypeScript.
   human operator (human-in-the-loop).
 - The model is self-hosted, so patient data never leaves the client's servers: Mistral Small 24B on
   Ollama, 4× RTX 4090. We started on Llama 3 and switched after comparing models on real queries and
-  on speed.
+  on speed (llama4, qwen 3.5, DeepSeek, Gemma4, GPT-OSS 20B).
 - "LLM as a selector": the model picks an ID from a closed list and code renders the facts, so it
   can't invent a price or an instruction.
 - Each turn goes through a 7-stage pipeline with 0–2 LLM calls, timeouts and a kill switch per layer.
